@@ -1,0 +1,143 @@
+
+
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+.links{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F9FAF8;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.subheader{
+    display: flex;
+    gap:15px;
+    height: 400px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header,
+.subheader{
+    background-color: #1F2937;
+}
+
+.placeholder{
+    background-color: gray;
+    height: 180px;
+    width: 300px;
+    padding-top: 10px;
+}
+
+.blue-box{
+    border: solid cornflowerblue 4px;
+    border-radius: 5px;
+    height: 80px;
+    width: 80px;
+
+}
+
+.information{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.box-text{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.text{
+    text-align: center;
+    width: 80px;
+
+}
+
+body{
+    margin: 0%;
+}
+
+.quotes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    font-size: 20px;
+    height: 80px;
+}
+
+.subquote{
+    font-weight: bold;
+    padding-left: 230px;
+}
+
+.call-to-action{
+    display: flex;
+    background-color: blue;
+    border-radius: 8px;
+    height: 80px;
+    width: 900px;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.call{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 150px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 9px;
+}
+
+.footer{
+    background-color: grey;
+    height: 100px;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
